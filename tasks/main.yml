@@ -6,7 +6,6 @@
 
 - name: Check service status
   shell: service httpd status
-  command_warnings: false
   register: service_status
 
 - name: Show status
